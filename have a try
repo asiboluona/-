@@ -1,0 +1,17 @@
+/*读取字符数据*/
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+	int i;
+	char ch;
+	printf("请输入一个整数 \n ==>");
+	i = getche();
+	printf("\n");
+	printf("请输入一个字符 \n==>");
+	ch = getche();
+	printf("\n");
+	printf("整数是=%d \n, ASCII码值是=%d \n, 字符是= %c \n", i, ch, ch);
+	system("pause");
+	return 0;
+}
